@@ -6,6 +6,11 @@ function CustomChatbot(props) {
         {
             id: "Greet",
             message: "今日の話、聞かせて！",
+            trigger: "input"
+        },
+        {
+            id: "input",
+            message: "入力してください。",
             trigger: "story"
         },
         {
