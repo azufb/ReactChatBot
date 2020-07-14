@@ -19,4 +19,6 @@ function CustomChatbot(props) {
             end: true
         }
     ];
+    return <ChatBot steps={steps} />
 }
+export default CustomChatbot;
