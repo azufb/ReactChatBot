@@ -1,12 +1,24 @@
 import React from 'react';
-import CustomChatbot from './components/chatbot/CustomChatbot';
+import CustomChatbot from './chatbot/CustomChatbot';
+
 
 function App() {
   return (
-    <div>
-      <div className="container mt-5">
-        <CustomChatbot />
-      </div>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+      <CustomChatbot />
     </div>
   );
 }
