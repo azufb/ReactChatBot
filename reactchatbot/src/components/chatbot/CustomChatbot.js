@@ -23,7 +23,7 @@ function CustomChatbot(props) {
         },
         {
             id: "story",
-            message: story(Math.floor(Math.random()*story.length)),
+            message: story[Math.floor(Math.random()*story.length)],
             trigger: "Done"
         },
         {
