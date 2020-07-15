@@ -2,6 +2,14 @@ import React from "react";
 import ChatBot from "react-simple-chatbot";
 
 function CustomChatbot(props) {
+
+    let story = new Array();
+    story = [
+        "よく頑張ったね！",
+        "えらいね！",
+        "すごい！"
+    ];
+
     const steps = [
         {
             id: "Greet",
@@ -12,6 +20,11 @@ function CustomChatbot(props) {
             id: "input",
             message: "入力してください。",
             trigger: "story"
+        },
+        {
+            id: "story",
+            message: story(Math.floor(Math.random()*story.length)),
+            trigger: "Done"
         },
         {
             id: "Done",
