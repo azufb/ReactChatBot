@@ -1,6 +1,5 @@
 import React from "react";
 import ChatBot from "react-simple-chatbot";
-import * as admin from 'firebase-admin';
 
 function CustomChatbot(props) {
 
