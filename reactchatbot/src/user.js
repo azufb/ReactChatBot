@@ -1,6 +1,5 @@
 import { createStore, applyMiddleware } from 'redux'
 import thunkMiddleware from 'redux-thunk'
-import * as admin from 'firebase-admin';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
