@@ -34,4 +34,4 @@ function CustomChatbot(props) {
     ];
     return <ChatBot steps={steps} />
 }
-export default CustomChatbot;
+export default CustomChatbot();
