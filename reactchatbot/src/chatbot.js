@@ -1,7 +1,15 @@
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
+import { ThemeProvider } from 'styled-components';
 
 function CustomChatbot(props) {
+
+    const theme = {
+        background: "white",
+        fontFamily: "sans-serif",
+        headerBgColor: "#00B2B2",
+        botBubbleColor: "antiquewhite"
+    }
     let praise = [
         "お疲れ様！よく頑張ったね！",
         "えらい！",
@@ -36,6 +44,10 @@ function CustomChatbot(props) {
             end: true
         }
     ];
-    return <ChatBot steps={steps}/>
+    return (
+        <ThemeProvider theme={theme}>
+            <ChatBot steps={steps}/>
+        </ThemeProvider>
+    );
 }
 export default CustomChatbot;
