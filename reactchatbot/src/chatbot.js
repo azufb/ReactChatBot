@@ -26,7 +26,7 @@ function CustomChatbot(props) {
         },
         {
             id: "AskInputStory",
-            message: "お話いっぱい聞かせて！",
+            message: "お話、たくさん聞かせてね！",
             trigger: "InputStory"
         },
         {
