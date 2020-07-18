@@ -7,14 +7,15 @@ function CustomChatbot(props) {
     const theme = {
         background: "white",
         fontFamily: "sans-serif",
-        headerBgColor: "#00B2B2",
-        botBubbleColor: "antiquewhite"
+        headerBgColor: "#fdd35c",
+        botBubbleColor: "antiquewhite",
     }
     let praise = [
         "お疲れ様！よく頑張ったね！",
         "えらい！",
         "すごいね！",
-        "よく頑張ったね！"
+        "大変だったね...よく頑張りました！",
+        "よく頑張ったね！えらいよ！"
     ];
 
     const steps = [

@@ -7,6 +7,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: antiquewhite;
 }
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.description p {
+  margin-top: 90px;
+  margin-left: 45px;
+  margin-right: 35px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
