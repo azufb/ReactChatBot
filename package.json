@@ -1,0 +1,24 @@
+{
+  "name": "reactchatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azufb/ReactChatBot.git"
+  },
+  "author": "Azusa Okamoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azufb/ReactChatBot/issues"
+  },
+  "homepage": "https://github.com/azufb/ReactChatBot#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-simple-chatbot": "^0.6.1"
+  }
+}
