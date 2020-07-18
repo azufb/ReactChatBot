@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/azufb/ReactChatBot/issues"
   },
-  "homepage": "https://github.com/azufb/ReactChatBot#readme",
+  "homepage": "https://chatbotapp-4e77e.firebaseapp.com",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
