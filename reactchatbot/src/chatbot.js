@@ -12,12 +12,12 @@ function CustomChatbot(props) {
     const steps = [
         {
             id: "GreetingMessage",
-            message: "今日のお話、聞かせて！",
+            message: "やあ！",
             trigger: "AskInputStory"
         },
         {
             id: "AskInputStory",
-            message: "今日のお話を入力してください。",
+            message: "お話いっぱい聞かせて！",
             trigger: "InputStory"
         },
         {
