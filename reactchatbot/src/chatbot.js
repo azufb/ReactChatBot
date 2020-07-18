@@ -8,7 +8,7 @@ function CustomChatbot(props) {
         background: "white",
         fontFamily: "sans-serif",
         headerBgColor: "#fdd35c",
-        botBubbleColor: "antiquewhite",
+        botBubbleColor: "antiquewhite"
     }
     let praise = [
         "お疲れ様！よく頑張ったね！",
