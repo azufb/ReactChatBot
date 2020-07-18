@@ -2,8 +2,7 @@ import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 
 function CustomChatbot(props) {
-    let story = new Array();
-    story = [
+    let praise = [
         "お疲れ様！よく頑張ったね！",
         "えらい！",
         "すごいね！",
@@ -28,7 +27,7 @@ function CustomChatbot(props) {
         },
         {
             id: "Story",
-            message: story(Math.floor(Math.random() * story.length)),
+            message: praise[Math.floor(Math.random() * praise.length)],
             trigger: "EndingMessage"
         },
         {
@@ -37,6 +36,6 @@ function CustomChatbot(props) {
             end: true
         }
     ];
-    return <ChatBot steps={steps} {...config} />;
+    return <ChatBot steps={steps}/>
 }
 export default CustomChatbot;
