@@ -1,20 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Create_React_App_Sample",
+  "short_name": "React_App",
+  "version": "0.0.1",
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "icons": [
-      {
-        "src": "reactchatbot/f_f_business_45_s512_f_business_45_0bg.png",
-        "sizes": "72×72",
-        "type": "image/png"
-      },
-      {
-        "src": "reactchatbot/public/favicon.ico",
-        "sizes": "15×15",
-        "type": "image/png"
-      }
-  ]
+  "background_color": "antiquewhite",
+  "authenticationMethod": "none"
 }
