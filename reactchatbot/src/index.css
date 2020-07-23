@@ -21,25 +21,16 @@ p {
   margin-top: 5px;
 }
 
-.description {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.description p {
-  margin-top: 90px;
-  margin-left: 45px;
-  margin-right: 35px;
-  height: 80px;
-  padding-top: 30px;
-  padding-left: 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-  font-size: 20px;
+#root {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform:translate(-50%, -50%);
 }
 
 footer {
   position: fixed;
+  bottom: 0px;
 }
 
 code {
@@ -50,5 +41,12 @@ code {
 @media (max-width: 767px) {
   * {
     width: auto;
+  }
+
+  #root {
+    width: 350px;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
   }
 }
