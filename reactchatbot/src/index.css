@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: antiquewhite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
   text-align: center;
@@ -31,6 +34,7 @@ p {
 footer {
   position: fixed;
   bottom: 0px;
+  margin-top: auto;
 }
 
 code {
@@ -43,10 +47,23 @@ code {
     width: auto;
   }
 
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    visibility: hidden;
+  }
+
   #root {
-    width: 350px;
+    width: 290px;
+    height: 290px;
     position: absolute;
-    top: 60%;
+    top: 30%;
     transform: translate(-50%, -50%);
+  }
+
+  footer {
+    font-size: 5px;
   }
 }
